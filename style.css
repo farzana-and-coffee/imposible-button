@@ -68,8 +68,8 @@ body{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: transform 0.2s ease;
-    animation: buttonpop 0.6s ease-out ;
+    /*transition: transform 0.2s ease;
+    animation: buttonpop 0.6s ease-out ;*/
 }
 
 #imp-button:hover{

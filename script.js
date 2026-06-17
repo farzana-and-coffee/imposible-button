@@ -51,7 +51,7 @@ function moveButton(){
 }
 
 // button run when the mouse hover the button
-button.addEventListener('mouseover', moveButton);
+button.addEventListener('mousemove', moveButton);
 
 //ragbaiting messages
 const messages = [
