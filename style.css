@@ -114,15 +114,26 @@ body{
     display: none;
     width: 100vw;
     height: 100vh;
-    background-color: #7B2FBE;
+    background-color: #4A1A8C;
     justify-content: center;
     align-items: center;
-    border: 40px solid #9B59B6;
+}
+
+#win-box{
+    background-color: #7b2FBE;
+    width: 1470px;
+    height: 720px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border: 8px solid #9B59B6;
 }
 
 #win-message {
   color: white;
-  font-size: 110px;
+  font-size: 120px;
   text-align: center;
-  padding: 60px;
 }
+
