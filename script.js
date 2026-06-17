@@ -51,7 +51,7 @@ function moveButton(){
 }
 
 // button run when the mouse hover the button
-//button.addEventListener('mouseover', moveButton);
+button.addEventListener('mouseover', moveButton);
 
 //ragbaiting messages
 const messages = [
@@ -82,9 +82,12 @@ const messages = [
 
 
 //button click
+let canClick = true ;
+
 function handleClick() {
-    button.removeEventListener('click', handleClick);
-    //button.removeEventListener('mouseover', moveButton);
+    if (!canClick) return;
+    canClick = false;
+
     gameScreen.style.backgroundColor= gameState[currentFrame].bg;
     button.style.backgroundColor = gameState[currentFrame].btnColor;
     button.textContent = messages[currentFrame];
@@ -95,8 +98,7 @@ function handleClick() {
         showWinScreen();
     } else{
         setTimeout(() => {
-            button.addEventListener('click', handleClick);
-            //button.addEventListener('mouseover',moveButton);
+            canClick = true;
         }, 500);
 
     }
@@ -111,6 +113,24 @@ function showWinScreen(){
     const winScreen= document.getElementById('win');
     winScreen.style.display='flex';
     typeWriter("..WOW 😶. You actually did it😑. I'm not impressed. Ok maybe a little😏. NO I'M NOT 😤", "win-message");
+
+    //confetti from left
+    confetti({
+        particleCount: 250,
+        angle: 45,
+        spread: 90,
+        origin: {x:0},
+        scalar:2.5
+    });
+
+    //confetti from right
+    confetti({
+        particleCount: 250,
+        angle: 135,
+        spread: 90,
+        origin: {x:1},
+        scalar: 2.5
+    });
 }
 
 //animation effect for win message
