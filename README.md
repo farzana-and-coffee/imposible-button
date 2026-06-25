@@ -1,29 +1,38 @@
-# The Impossible Button
+# The Impossible Button 👿
+>your cursor vs a button with trust issues 😂
+A browser game where the button refuses to be clicked 😈
 
-## Project Description
+## 🎮 About The Game
+There is a random button on your screen, and if you think you can click it - sorry to say, the button won't let you. Instead, it runs away from your cursor every time you get close.😏
 
-An interactive browser-based game where a button escapes the user's cursor every time they attempt to click it, displaying taunting messages to increase frustration and fun.
+If you somehow manage to click the button, it takes you to the next round. There are around 25 levels in this game but: first, you'll never know which level you're on. Second, if you think you can even pass the second round...that's hilarious 🤣. And third - did you really think you could win?🙄😏
 
-## Purpose
+## ✨ Features 
+- Irish Grover font throughout.
+- Bold and chaotic colour palette.
+- Cinematic title animation that zooms in and explodes toward the screen.
+- Button escapes your cursor every time you get close.
+- Background and button colour changes every successful click.
+- Roasting/insulting messages on the button after each click.
+- 25 levels of increasing chaos.
+- Player never knows which level they're on.
+- Anti-spam click protection.
+- Sarcastic win message.
+- Typewriter text animation.
+- Confetti explosion from both sides.🎊
 
-Built for entertainment purposes, targeting casual users who enjoy light-hearted, humorous web games. The game aims to provide a fun and frustrating experience through interactive animations and unpredictable button behaviour.
+## 🛠️ Tech Stack
+- HTML5 — structure of the game.
+- CSS3 — styling, animations and visual effects.
+- JavaScript — game logic, button movement and interactivity.
+- Canvas Confetti — confetti explosion on win screen.
 
-## Tech Stack 
+## 🎮 How To Play
+...figure it out yourself 🙄
 
-The project will be built using HTML5 for structure, CSS3 for styling and animations, and JavaScript for game logic and interactivity.
-
-## What the game WILL do 
-
-1.	Button runs away from the cursor when hovered
-2.	Background colour changes on every attempt
-3.	Plays funny sounds on every attempt
-4.	Displays taunting/annoying messages
-5.	Button changes size to make it harder to catch
-6.	Game ends after 40 attempts — button "gives up" and user wins
-
-## What the game WILL NOT do 
-
-1.	Will not save any user data or history
-2.	Will not require any login or account creation
-3.	Will not have multiple levels (for now — could be a future feature!)
-4.	Will not be a mobile app — browser based only
+## 🔮 Future Features
+- 🔊 Sound effects and background music per level.
+- 📱 Mobile responsive design.
+- ⏱️ Timer to add extra pressure.
+- 🏆 Leaderboard to track fastest wins
+- 😈 More levels.

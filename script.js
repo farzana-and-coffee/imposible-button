@@ -51,7 +51,7 @@ function moveButton(){
 }
 
 // button run when the mouse hover the button
-button.addEventListener('mousemove', moveButton);
+button.addEventListener('mouseover', moveButton);
 
 //ragbaiting messages
 const messages = [
@@ -106,6 +106,10 @@ function handleClick() {
 
 //click sounds
 button.addEventListener('click', handleClick);
+
+//adding background music
+const introSound = new Audio ('sounds/intro.wav');
+introSound.play();
 
 //show win screen 
 function showWinScreen(){
